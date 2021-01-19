@@ -10,14 +10,14 @@
   <main id="main">
       <header>
         <img src="./img/Listen-Live.png" alt="Listen-Live">
-        <h2>Name Site</h2>
-        <h3>File Name</h3>
+        <h2>Radio Player</h2>
+        <h3 id="title_file">File Name</h3>
       </header>
       <article id="content">
         <div id="buttons">
-          <img src="./img/back.png" alt="">
-          <img src="./img/play.png" alt="">
-          <img src="./img/next.png" alt="">
+          <img src="./img/back.png" id="prev">
+          <img src="./img/play.png" id="play_pause">
+          <img src="./img/next.png" id="next">
         </div>
         <div id="volume">
           <h3> Volume </h3>
@@ -25,15 +25,19 @@
         </div>
         <div id="speed">
           <h3> Speed </h3>
-          <input type="range" name="" id="speed_range">
+          <input type="range" name="" id="speed_range" max="200" min="0">
         </div>
         <div id="color">
-          <button id="button1"></button>
-          <button id="button2"></button>
-          <button id="button3"></button>
-          <button id="button4"></button>
+          <button id="color1"></button>
+          <button id="color2"></button>
+          <button id="color3"></button>
+          <button id="color4"></button>
+          <audio src="" id="audio_file"></audio>
         </div>
       </article>
   </main>  
+  <script src="./js/player.js"></script>
+  <script src="./js/volume.js"></script>
+  <script src="./js/color.js"></script>
 </body>
 </html>

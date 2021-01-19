@@ -3,8 +3,6 @@
     padding: 0px;
 }
 #main{
-    margin-top: 20px;
-    background-color: #4cedf8;
     position: absolute;
     width: 300px;
     height: 100%;
@@ -92,16 +90,16 @@ header h2
     transition: .4s ease-in-out;
     box-shadow: 1px 2px #000000;
 }
-#button1{
+#color1{
     background-color: rgb(243, 54, 234);
 }
-#button2{
+#color2{
     background-color: rgba(115, 118, 247, 0.986);
 }
-#button3{
+#color3{
     background-color: rgb(127, 241, 12);
 }
-#button4{
+#color4{
     background-color: rgb(240, 130, 6);
 }
 
